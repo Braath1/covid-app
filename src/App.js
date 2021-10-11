@@ -4,10 +4,10 @@ import { MenuItem, FormControl, Select, Card, CardContent } from '@material-ui/c
 import InfoBox from './components/InfoBox';
 import Map from './components/Map';
 import Table from './components/Table';
-import { sortData, prettyPrintStat, regularPrintStat, showDataOnMap } from './utils';
+import { sortData, prettyPrintStat, regularPrintStat } from './utils';
 import LineGraph from './components/LineGraph';
 import 'leaflet/dist/leaflet.css';
-import { Popup, popup } from 'leaflet';
+// import { Popup, popup } from 'leaflet';
 
 function App() {
   const [countries, setCountries] = useState([]);
